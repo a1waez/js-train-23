@@ -4,10 +4,21 @@
 class Basket {
   // Створимо конструктор приймає, що стратегію знижки discountPlan як параметр
   // Властивість discountPlan отримує значення стратегії знижки, яке було передано конструктору
+  // constructor(discountPlan) {
+  //   this.discountPlan = discountPlan;
+  // }
   // Створюємо новий пустий масив для зберігання товарів (goods) в кошику
+  // goods = [];
   // Робимо метод addGood, що приймає один параметр - good, який потрібно додати до масиву
+  // addGood(good) {
+  //   this.goods.push(good);
+  // }
   // Додаємо новий товар в масив товарів
   // Робимо метод calculateTotalPrice, що розраховує загальну вартість товарів в кошику з урахуванням знижки
+  // calculateTotalPrice() {
+  //   const totalPrice = this.goods.reduce((acc, good) => acc + good.price);
+  //   return totalPrice;
+  // }
   // За допомогою метода reduce ми сумуємо вартість всіх товарів в масиві
   // Застосовуємо знижку до загальної вартості за допомогою метода applyDiscount нашого об'єкта discountPlan
 }
